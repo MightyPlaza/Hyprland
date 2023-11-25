@@ -154,7 +154,7 @@ class CCompositor {
     CWorkspace*    getWorkspaceByString(const std::string&);
     void           sanityCheckWorkspaces();
     void           updateWorkspaceWindowDecos(const int&);
-    int            getWindowsOnWorkspace(const int&);
+    int            getWindowsOnWorkspace(const int&, bool visible = false);
     CWindow*       getUrgentWindow();
     bool           hasUrgentWindowOnWorkspace(const int&);
     CWindow*       getFirstWindowOnWorkspace(const int&);

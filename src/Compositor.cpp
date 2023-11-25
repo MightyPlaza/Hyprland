@@ -1218,10 +1218,10 @@ void CCompositor::sanityCheckWorkspaces() {
     }
 }
 
-int CCompositor::getWindowsOnWorkspace(const int& id) {
+int CCompositor::getWindowsOnWorkspace(const int& id, bool visible) {
     int no = 0;
     for (auto& w : m_vWindows) {
-        if (w->m_iWorkspaceID == id && w->m_bIsMapped)
+        if (w->m_iWorkspaceID == id && w->m_bIsMapped && (!visible || !w->isHidden()))
             no++;
     }
 

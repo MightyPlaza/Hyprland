@@ -113,6 +113,8 @@ void Events::listener_mapWindow(void* owner, void* data) {
     bool overridingNoFullscreen = false;
     bool overridingNoMaximize   = false;
 
+    bool isWorkspaceSet = false;
+
     PWINDOW->m_szInitialTitle = g_pXWaylandManager->getTitle(PWINDOW);
     PWINDOW->m_szInitialClass = g_pXWaylandManager->getAppIDClass(PWINDOW);
 
@@ -163,8 +165,10 @@ void Events::listener_mapWindow(void* owner, void* data) {
 
             const auto JUSTWORKSPACE = WORKSPACERQ.contains(' ') ? WORKSPACERQ.substr(0, WORKSPACERQ.find_first_of(' ')) : WORKSPACERQ;
 
-            if (JUSTWORKSPACE == PWORKSPACE->m_szName || JUSTWORKSPACE == "name:" + PWORKSPACE->m_szName)
+            if (JUSTWORKSPACE == PWORKSPACE->m_szName || JUSTWORKSPACE == "name:" + PWORKSPACE->m_szName) {
                 requestedWorkspace = "";
+                isWorkspaceSet     = true;
+            }
 
             Debug::log(LOG, "Rule workspace matched by {}, {} applied.", PWINDOW, r.szValue);
         } else if (r.szRule.starts_with("float")) {
@@ -266,6 +270,7 @@ void Events::listener_mapWindow(void* owner, void* data) {
         const int   REQUESTEDWORKSPACEID = getWorkspaceIDFromString(WORKSPACEARGS.join(" ", 0, workspaceSilent ? WORKSPACEARGS.size() - 1 : 0), requestedWorkspaceName);
 
         if (REQUESTEDWORKSPACEID != WORKSPACE_INVALID) {
+            isWorkspaceSet  = true;
             auto pWorkspace = g_pCompositor->getWorkspaceByID(REQUESTEDWORKSPACEID);
 
             if (!pWorkspace)
@@ -281,7 +286,7 @@ void Events::listener_mapWindow(void* owner, void* data) {
                 if (pWorkspace->m_bIsSpecialWorkspace)
                     g_pCompositor->getMonitorFromID(pWorkspace->m_iMonitorID)->setSpecialWorkspace(pWorkspace);
                 else
-                    g_pKeybindManager->m_mDispatchers["workspace"](requestedWorkspaceName);
+                    g_pKeybindManager->m_mDispatchers["workspace"](pWorkspace->m_szName);
 
                 PMONITOR = g_pCompositor->m_pLastMonitor;
             }
@@ -615,6 +620,39 @@ void Events::listener_mapWindow(void* owner, void* data) {
                         g_pLayoutManager->getCurrentLayout()->recalculateMonitor(PWINDOW->m_iMonitorID);
                     }
                 }
+            }
+        }
+    }
+
+    if (!isWorkspaceSet) {
+        auto       pWorkspace    = g_pCompositor->getWorkspaceByID(PWINDOW->m_iWorkspaceID);
+        auto       workspaceRule = pWorkspace ? g_pConfigManager->getWorkspaceRuleFor(pWorkspace) : SWorkspaceRule{};
+        const auto PMONITOR      = g_pCompositor->getMonitorFromID(PWINDOW->m_iMonitorID);
+
+        int        maxClients       = std::abs(workspaceRule.maxClients);
+        bool       maxClientsSilent = (0 > workspaceRule.maxClients);
+        bool       hadFocus         = (g_pCompositor->m_pLastWindow == PWINDOW);
+        if (maxClients != 0 && maxClients < g_pCompositor->getWindowsOnWorkspace(pWorkspace->m_iID, true)) {
+            if (pWorkspace->m_bIsSpecialWorkspace) {
+                g_pCompositor->moveWindowToWorkspaceSafe(PWINDOW, g_pCompositor->getWorkspaceByID(PMONITOR->activeWorkspace));
+                if (!maxClientsSilent) {
+                    PMONITOR->setSpecialWorkspace(nullptr);
+                    if (hadFocus)
+                        g_pCompositor->focusWindow(PWINDOW);
+                }
+            }
+
+            pWorkspace    = g_pCompositor->getWorkspaceByID(PMONITOR->activeWorkspace);
+            workspaceRule = pWorkspace ? g_pConfigManager->getWorkspaceRuleFor(pWorkspace) : SWorkspaceRule{};
+            maxClients    = workspaceRule.maxClients;
+            if (maxClients != 0 && maxClients < g_pCompositor->getWindowsOnWorkspace(pWorkspace->m_iID, true)) {
+                std::string requestedWorkspaceName;
+                const int   REQUESTEDWORKSPACEID = getWorkspaceIDFromString("empty", requestedWorkspaceName);
+                // doesn't exist since it's empty
+                pWorkspace = g_pCompositor->createNewWorkspace(REQUESTEDWORKSPACEID, PWINDOW->m_iMonitorID, requestedWorkspaceName);
+                g_pCompositor->moveWindowToWorkspaceSafe(PWINDOW, pWorkspace);
+                if (!maxClientsSilent)
+                    g_pKeybindManager->m_mDispatchers["workspace"](pWorkspace->m_szName);
             }
         }
     }

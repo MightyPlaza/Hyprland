@@ -1209,6 +1209,10 @@ void CConfigManager::handleWorkspaceRules(const std::string& command, const std:
             wsRule.isPersistent = configStringToInt(rule.substr(delim + 11));
         else if ((delim = rule.find(ruleOnCreatedEmtpy)) != std::string::npos)
             wsRule.onCreatedEmptyRunCmd = cleanCmdForWorkspace(name, rule.substr(delim + ruleOnCreatedEmtpyLen));
+        else if ((delim = rule.find("maxclients:")) != std::string::npos) {
+            const auto ARGS   = CVarList(rule.substr(delim + 11), 0, ' ');
+            wsRule.maxClients = configStringToInt(ARGS[0]) * (ARGS[1].empty() ? 1 : -1);
+        }
     };
 
     size_t      pos = 0;

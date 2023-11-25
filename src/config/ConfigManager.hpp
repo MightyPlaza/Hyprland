@@ -43,6 +43,8 @@ struct SWorkspaceRule {
     int                        workspaceId     = -1;
     bool                       isDefault       = false;
     bool                       isPersistent    = false;
+    int                        maxClients      = 0; // maximum number of clients spawned on a workspace (negative value for silent)
+
     std::optional<int64_t>     gapsIn;
     std::optional<int64_t>     gapsOut;
     std::optional<int64_t>     borderSize;
