@@ -1263,7 +1263,7 @@ std::string dispatchSeterror(eHyprCtlOutputFormat format, std::string request) {
 
 std::string dispatchSetProp(eHyprCtlOutputFormat format, std::string request) {
     auto result = g_pKeybindManager->m_mDispatchers["setprop"](request.substr(request.find_first_of(' ') + 1, -1));
-    return "DEPRECATED: use hyprctl dispatch setprop instead" + (result.success ? "" : "\n" + result.error);
+    return "DEPRECATED: use the setprop dispatcher or hyprctl dispatch setprop instead" + (result.success ? "" : "\n" + result.error);
 }
 
 std::string dispatchGetOption(eHyprCtlOutputFormat format, std::string request) {
