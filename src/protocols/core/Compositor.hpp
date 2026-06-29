@@ -10,7 +10,6 @@
 
 #include <span>
 #include <vector>
-#include <queue>
 #include <cstdint>
 #include "../WaylandProtocol.hpp"
 #include "../../render/Texture.hpp"

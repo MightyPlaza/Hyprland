@@ -1,7 +1,6 @@
 #pragma once
 
 #include <optional>
-#include <wayland-server.h>
 #include <vector>
 #include <format>
 #include <expected>

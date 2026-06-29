@@ -2,7 +2,6 @@
 
 #include <string>
 #include <typeindex>
-#include <typeinfo>
 #include <hyprlang.hpp>
 #include "../macros.hpp"
 #include "../config/shared/complex/ComplexDataType.hpp"
