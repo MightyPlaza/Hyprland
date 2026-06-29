@@ -12,10 +12,12 @@
 #include "../types/LuaConfigVec2.hpp"
 #include "../types/LuaConfigExpressionVec2.hpp"
 
-#include "../../../Compositor.hpp"
 #include "../../../helpers/MiscFunctions.hpp"
 #include "../../../output/Monitor.hpp"
 #include "../../../desktop/state/FocusState.hpp"
+#include "../../../desktop/state/ViewState.hpp"
+#include "../../../desktop/state/WindowState.hpp"
+#include "../../../desktop/view/Window.hpp"
 #include "../../../desktop/rule/windowRule/WindowRuleEffectContainer.hpp"
 #include "../../../managers/KeybindManager.hpp"
 #include "../../shared/actions/ConfigActions.hpp"
