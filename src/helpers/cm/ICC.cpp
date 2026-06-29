@@ -6,6 +6,7 @@
 #include "../../debug/log/Logger.hpp"
 #include "../../render/Texture.hpp"
 #include "../../render/Renderer.hpp"
+#include "../../config/ConfigValue.hpp"
 
 #include <hyprutils/utils/ScopeGuard.hpp>
 using namespace Hyprutils::Utils;

@@ -2,6 +2,7 @@
 #include "Renderer.hpp"
 #include "../layout/LayoutManager.hpp"
 #include "../desktop/view/Window.hpp"
+#include "../desktop/view/LayerSurface.hpp"
 #include "render/pass/ClearPassElement.hpp"
 #include <hyprutils/memory/SharedPtr.hpp>
 #include <hyprutils/memory/UniquePtr.hpp>

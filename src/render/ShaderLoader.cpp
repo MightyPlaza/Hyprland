@@ -7,6 +7,7 @@
 #include "../debug/log/Logger.hpp"
 #include "shaders/Shaders.hpp"
 #include "../helpers/fs/FsUtils.hpp"
+#include "../config/ConfigValue.hpp"
 #include "Renderer.hpp"
 #include <glslang/Public/resource_limits_c.h>
 #include <string>

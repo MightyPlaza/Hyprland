@@ -2,6 +2,7 @@
 
 #include "../../Compositor.hpp"
 #include "../../state/WorkspaceState.hpp"
+#include "../../desktop/view/LayerSurface.hpp"
 #include "../../desktop/state/FocusState.hpp"
 #include "../../render/Renderer.hpp"
 #include "InputManager.hpp"

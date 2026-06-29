@@ -22,7 +22,6 @@
 #include "./pass/TransformedWindowPassElement.hpp"
 #include "types.hpp"
 #include "../output/Monitor.hpp"
-#include "../desktop/view/LayerSurface.hpp"
 #include "Renderbuffer.hpp"
 #include "../helpers/time/Timer.hpp"
 #include "../helpers/math/Math.hpp"

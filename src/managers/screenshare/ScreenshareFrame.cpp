@@ -10,6 +10,7 @@
 #include "../../output/Monitor.hpp"
 #include "../../state/MonitorState.hpp"
 #include "../../desktop/view/Window.hpp"
+#include "../../desktop/view/LayerSurface.hpp"
 #include "../../desktop/state/FocusState.hpp"
 #include "../../render/pass/ClearPassElement.hpp"
 #include "../../render/pass/RectPassElement.hpp"
