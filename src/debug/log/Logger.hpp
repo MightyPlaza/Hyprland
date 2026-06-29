@@ -4,7 +4,6 @@
 #include <utility>
 
 #include "../../helpers/memory/Memory.hpp"
-#include "../../helpers/env/Env.hpp"
 
 namespace Log {
     class CLogger {

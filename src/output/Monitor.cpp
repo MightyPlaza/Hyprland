@@ -4,6 +4,7 @@
 #include "SharedDefs.hpp"
 #include "../helpers/TransferFunction.hpp"
 #include "../helpers/math/Math.hpp"
+#include "../helpers/env/Env.hpp"
 #include "../protocols/ColorManagement.hpp"
 #include "../Compositor.hpp"
 #include "../config/ConfigValue.hpp"

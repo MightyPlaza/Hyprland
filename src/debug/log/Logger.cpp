@@ -3,6 +3,7 @@
 
 #include "../../event/EventBus.hpp"
 
+#include "../../helpers/env/Env.hpp"
 #include "../../config/ConfigValue.hpp"
 
 using namespace Log;
