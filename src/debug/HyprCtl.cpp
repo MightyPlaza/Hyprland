@@ -9,6 +9,7 @@
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
+#include <libinput.h>
 #include <sys/socket.h>
 #include <sys/stat.h>
 #include <sys/types.h>

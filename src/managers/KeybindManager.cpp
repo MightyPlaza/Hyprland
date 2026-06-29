@@ -19,6 +19,7 @@
 
 #include <string>
 #include <cstring>
+#include <linux/input-event-codes.h>
 
 #include <hyprutils/string/String.hpp>
 #include <hyprutils/utils/ScopeGuard.hpp>

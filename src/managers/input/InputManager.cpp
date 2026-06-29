@@ -56,6 +56,8 @@
 #include <hyprutils/string/VarList.hpp>
 #include <hyprutils/string/VarList2.hpp>
 
+#include <libinput.h>
+
 using namespace Hyprutils::String;
 
 CInputManager::CInputManager() {

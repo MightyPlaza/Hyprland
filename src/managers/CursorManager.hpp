@@ -2,7 +2,6 @@
 
 #include <string>
 #include <hyprcursor/hyprcursor.hpp>
-#include "../includes.hpp"
 #include "../desktop/view/WLSurface.hpp"
 #include "../helpers/math/Math.hpp"
 #include "../helpers/memory/Memory.hpp"

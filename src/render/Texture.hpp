@@ -5,6 +5,7 @@
 #include <aquamarine/buffer/Buffer.hpp>
 #include <hyprutils/math/Misc.hpp>
 #include <span>
+#include <GLES3/gl32.h>
 
 class IHLBuffer;
 HYPRUTILS_FORWARD(Math, CRegion);

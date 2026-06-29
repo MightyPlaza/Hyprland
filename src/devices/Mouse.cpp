@@ -1,6 +1,7 @@
 #include "Mouse.hpp"
 #include "../defines.hpp"
 #include <aquamarine/input/Input.hpp>
+#include <libinput.h>
 
 SP<CMouse> CMouse::create(SP<Aquamarine::IPointer> mouse) {
     SP<CMouse> pMouse = SP<CMouse>(new CMouse(mouse));

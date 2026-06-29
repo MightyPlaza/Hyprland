@@ -1,6 +1,5 @@
 #include "Format.hpp"
 #include <vector>
-#include "../includes.hpp"
 #include "debug/log/Logger.hpp"
 #include "../macros.hpp"
 #include <xf86drm.h>

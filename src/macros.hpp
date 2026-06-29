@@ -9,6 +9,18 @@
 #include "helpers/memory/Memory.hpp"
 #include "debug/log/Logger.hpp"
 
+// because C/C++ VS Code intellisense is stupid with includes, we will suppress them here.
+// This suppresses all "include file not found" errors.
+#ifdef __INTELLISENSE__
+#pragma diag_suppress 1696
+#endif
+
+#ifdef NO_XWAYLAND
+#define XWAYLAND false
+#else
+#define XWAYLAND true
+#endif
+
 #ifndef NDEBUG
 #ifdef HYPRLAND_DEBUG
 #define ISDEBUG true
