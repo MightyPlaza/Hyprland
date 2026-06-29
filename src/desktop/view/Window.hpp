@@ -7,7 +7,6 @@
 #include "View.hpp"
 #include "../../config/shared/complex/ComplexDataTypes.hpp"
 #include "../../helpers/AnimatedVariable.hpp"
-#include "../../helpers/TagKeeper.hpp"
 #include "../../macros.hpp"
 #include "../../managers/XWaylandManager.hpp"
 #include "../../render/decorations/IHyprWindowDecoration.hpp"

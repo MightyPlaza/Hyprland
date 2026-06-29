@@ -1,26 +1,20 @@
 #pragma once
 
-#include "../defines.hpp"
 #include <stack>
 #include <vector>
 #include "../SharedDefs.hpp"
-#include "../helpers/MiscFunctions.hpp"
-#include "../helpers/WLClasses.hpp"
 #include <array>
 #include <span>
 #include "../helpers/AnimatedVariable.hpp"
 #include "../helpers/CMType.hpp"
 #include "IMonitorArrangeable.hpp"
 #include "IMonitorQueryable.hpp"
-#include "MonitorTypes.hpp"
 
 #include <xf86drmMode.h>
 #include "MonitorZoomController.hpp"
 #include "../render/Texture.hpp"
-#include "../render/Framebuffer.hpp"
 #include "MonitorResources.hpp"
 #include "../helpers/time/Timer.hpp"
-#include "../helpers/math/Math.hpp"
 #include "../desktop/reserved/ReservedArea.hpp"
 #include <optional>
 #include "../helpers/cm/ColorManagement.hpp"
