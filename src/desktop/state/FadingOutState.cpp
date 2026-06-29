@@ -6,6 +6,7 @@
 #include "../../debug/log/Logger.hpp"
 #include "../../protocols/LayerShell.hpp"
 #include "../../state/MonitorState.hpp"
+#include "../../output/Monitor.hpp"
 
 #include <algorithm>
 

@@ -2,6 +2,8 @@
 #include "MonitorQueryCore.hpp"
 #include "MonitorStateTracker.hpp"
 
+#include "../output/Monitor.hpp"
+
 #include <utility>
 #include <vector>
 

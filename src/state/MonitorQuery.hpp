@@ -1,7 +1,9 @@
 #pragma once
 
-#include "../output/Monitor.hpp"
 #include "../helpers/math/Direction.hpp"
+#include "../helpers/memory/Memory.hpp"
+#include "../desktop/DesktopTypes.hpp"
+#include "../SharedDefs.hpp"
 
 #include <string_view>
 #include <optional>

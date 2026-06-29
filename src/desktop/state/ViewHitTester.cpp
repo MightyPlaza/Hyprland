@@ -13,6 +13,7 @@
 #include "../../state/MonitorState.hpp"
 #include "../../state/WorkspaceState.hpp"
 #include "../../xwayland/XWayland.hpp"
+#include "../../output/Monitor.hpp"
 
 #include <cmath>
 #include <ranges>

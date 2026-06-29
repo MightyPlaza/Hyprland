@@ -6,6 +6,7 @@
 #include "../config/shared/workspace/WorkspaceRuleManager.hpp"
 #include "../desktop/Workspace.hpp"
 #include "../debug/log/Logger.hpp"
+#include "../output/Monitor.hpp"
 
 using namespace State;
 
