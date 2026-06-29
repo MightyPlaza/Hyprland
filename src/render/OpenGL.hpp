@@ -14,8 +14,6 @@
 #include <stack>
 #include <map>
 
-#include <cairo/cairo.h>
-
 #include "render/SyncFDManager.hpp"
 #include "types.hpp"
 #include "Shader.hpp"
