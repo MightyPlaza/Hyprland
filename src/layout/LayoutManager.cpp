@@ -5,9 +5,10 @@
 #include "target/Target.hpp"
 
 #include "../output/Monitor.hpp"
-#include "../Compositor.hpp"
 #include "../state/WorkspaceState.hpp"
+#include "../desktop/view/Window.hpp"
 #include "../desktop/state/FocusState.hpp"
+#include "../desktop/state/WindowState.hpp"
 #include "../desktop/view/Group.hpp"
 #include "../event/EventBus.hpp"
 

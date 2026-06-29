@@ -1,9 +1,9 @@
 #include "CursorZoomGesture.hpp"
 
-#include "../../../../Compositor.hpp"
 #include "../../../../output/Monitor.hpp"
 #include "../../../../managers/input/InputManager.hpp"
 #include "../../../../state/MonitorState.hpp"
+#include "../../../../config/ConfigValue.hpp"
 #include <hyprutils/string/Numeric.hpp>
 
 CCursorZoomTrackpadGesture::CCursorZoomTrackpadGesture(const std::string& first, const std::string& second) {

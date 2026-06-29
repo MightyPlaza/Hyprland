@@ -1,13 +1,13 @@
 #include "CHyprDropShadowDecoration.hpp"
 
 #include <algorithm>
-#include "../../Compositor.hpp"
 #include "../../config/ConfigValue.hpp"
 #include "../pass/ShadowPassElement.hpp"
 #include "../Renderer.hpp"
 #include "../pass/RectPassElement.hpp"
 #include "../pass/TextureMatteElement.hpp"
 #include "../../state/MonitorState.hpp"
+#include "../../desktop/view/Window.hpp"
 
 CHyprDropShadowDecoration::CHyprDropShadowDecoration(PHLWINDOW pWindow) : IHyprWindowDecoration(pWindow), m_window(pWindow) {
     ;

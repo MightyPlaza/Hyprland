@@ -3,7 +3,6 @@
 #include "MonitorPositionController.hpp"
 #include "MonitorState.hpp"
 
-#include "../Compositor.hpp"
 #include "../config/ConfigValue.hpp"
 #include "../debug/log/Logger.hpp"
 #include "../event/EventBus.hpp"

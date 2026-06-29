@@ -1,6 +1,5 @@
 #include "Overlay.hpp"
 #include "config/ConfigValue.hpp"
-#include "../Compositor.hpp"
 #include "../render/pass/RectPassElement.hpp"
 #include "../render/pass/TexPassElement.hpp"
 #include "../render/Renderer.hpp"

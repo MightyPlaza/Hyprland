@@ -3,7 +3,7 @@
 #include <algorithm>
 
 #include "../../config/ConfigValue.hpp"
-#include "../../Compositor.hpp"
+#include "../../desktop/view/Window.hpp"
 #include "../pass/InnerGlowPassElement.hpp"
 #include "../Renderer.hpp"
 #include "../OpenGL.hpp"

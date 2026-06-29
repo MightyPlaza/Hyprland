@@ -1,5 +1,4 @@
 #include "Overlay.hpp"
-#include "../Compositor.hpp"
 #include "../config/ConfigValue.hpp"
 #include "../config/shared/animation/AnimationTree.hpp"
 #include "../desktop/state/FocusState.hpp"

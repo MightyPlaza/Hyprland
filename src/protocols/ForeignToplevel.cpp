@@ -1,6 +1,7 @@
 #include "ForeignToplevel.hpp"
-#include "../Compositor.hpp"
 #include "../event/EventBus.hpp"
+#include "../desktop/state/WindowState.hpp"
+#include "../desktop/view/Window.hpp"
 
 CForeignToplevelHandle::CForeignToplevelHandle(SP<CExtForeignToplevelHandleV1> resource_, PHLWINDOW pWindow_) : m_resource(resource_), m_window(pWindow_) {
     if UNLIKELY (!resource_->resource())

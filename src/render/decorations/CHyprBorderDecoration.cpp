@@ -1,10 +1,10 @@
 #include "CHyprBorderDecoration.hpp"
-#include "../../Compositor.hpp"
 #include "../../config/ConfigValue.hpp"
 #include "../../managers/eventLoop/EventLoopManager.hpp"
 #include "../pass/BorderPassElement.hpp"
 #include "../Renderer.hpp"
 #include "../../state/MonitorState.hpp"
+#include "../../desktop/view/Window.hpp"
 
 CHyprBorderDecoration::CHyprBorderDecoration(PHLWINDOW pWindow) : IHyprWindowDecoration(pWindow), m_window(pWindow) {
     ;

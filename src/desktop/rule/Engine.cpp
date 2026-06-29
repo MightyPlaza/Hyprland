@@ -1,7 +1,9 @@
 #include "Engine.hpp"
 #include "Rule.hpp"
+#include "../view/Window.hpp"
+#include "../state/WindowState.hpp"
 #include "../view/LayerSurface.hpp"
-#include "../../Compositor.hpp"
+#include "../state/LayerState.hpp"
 
 using namespace Desktop;
 using namespace Desktop::Rule;

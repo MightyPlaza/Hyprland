@@ -1,12 +1,12 @@
 #include "CloseGesture.hpp"
 
-#include "../../../../Compositor.hpp"
 #include "../../../../managers/animation/DesktopAnimationManager.hpp"
 #include "../../../../render/Renderer.hpp"
 #include "../../../../managers/eventLoop/EventLoopManager.hpp"
 #include "../../../../managers/eventLoop/EventLoopTimer.hpp"
 #include "../../../../config/ConfigValue.hpp"
 #include "../../../../desktop/state/FocusState.hpp"
+#include "../../../../desktop/view/Window.hpp"
 #include "../../../../layout/target/Target.hpp"
 
 using namespace Desktop::View;

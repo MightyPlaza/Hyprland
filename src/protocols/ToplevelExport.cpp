@@ -1,9 +1,9 @@
 #include "ToplevelExport.hpp"
-#include "../Compositor.hpp"
 #include "ForeignToplevelWlr.hpp"
 #include "../managers/screenshare/ScreenshareManager.hpp"
 #include "../helpers/Format.hpp"
 #include "../render/Renderer.hpp"
+#include "../desktop/state/ViewState.hpp"
 
 #include <hyprutils/math/Vector2D.hpp>
 #include <hyprgraphics/egl/Egl.hpp>

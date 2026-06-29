@@ -1,9 +1,9 @@
 #include "MiscFunctions.hpp"
 #include "../defines.hpp"
 #include <algorithm>
-#include "../Compositor.hpp"
 #include "../managers/TokenManager.hpp"
 #include "../desktop/state/FocusState.hpp"
+#include "../desktop/Workspace.hpp"
 #include "../desktop/history/WorkspaceHistoryTracker.hpp"
 #include "../output/Monitor.hpp"
 #include "../state/MonitorState.hpp"

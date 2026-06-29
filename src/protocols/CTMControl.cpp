@@ -1,5 +1,4 @@
 #include "CTMControl.hpp"
-#include "../Compositor.hpp"
 #include "../render/Renderer.hpp"
 #include "core/Output.hpp"
 #include "../config/ConfigValue.hpp"

@@ -1,7 +1,8 @@
 #include "XDGDialog.hpp"
 #include "XDGShell.hpp"
 #include "../desktop/view/WLSurface.hpp"
-#include "../Compositor.hpp"
+#include "../desktop/view/LayerSurface.hpp"
+#include "../desktop/view/Window.hpp"
 #include <algorithm>
 
 CXDGDialogV1Resource::CXDGDialogV1Resource(SP<CXdgDialogV1> resource_, SP<CXDGToplevelResource> toplevel_) : m_resource(resource_), m_toplevel(toplevel_) {

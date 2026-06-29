@@ -1,8 +1,8 @@
 #include "WorkspaceRuleManager.hpp"
 
-#include "../../../Compositor.hpp"
 #include "../../../output/Monitor.hpp"
 #include "../../../state/MonitorState.hpp"
+#include "../../../desktop/Workspace.hpp"
 
 #include <hyprutils/string/String.hpp>
 

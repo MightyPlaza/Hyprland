@@ -1,5 +1,4 @@
 #include "XWayland.hpp"
-#include "../Compositor.hpp"
 #include "../debug/log/Logger.hpp"
 #include "../helpers/fs/FsUtils.hpp"
 

@@ -1,5 +1,4 @@
 #include "DRMLease.hpp"
-#include "../Compositor.hpp"
 #include "../output/Monitor.hpp"
 #include "../event/EventBus.hpp"
 #include "drm-lease-v1.hpp"

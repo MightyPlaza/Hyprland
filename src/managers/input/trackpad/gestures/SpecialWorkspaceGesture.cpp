@@ -1,6 +1,6 @@
 #include "SpecialWorkspaceGesture.hpp"
 
-#include "../../../../Compositor.hpp"
+#include "../../../../desktop/Workspace.hpp"
 #include "../../../../state/WorkspaceState.hpp"
 #include "../../../../desktop/state/FocusState.hpp"
 #include "../../../../render/Renderer.hpp"

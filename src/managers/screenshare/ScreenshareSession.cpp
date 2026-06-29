@@ -1,10 +1,10 @@
 #include "ScreenshareManager.hpp"
 #include "../../render/OpenGL.hpp"
-#include "../../Compositor.hpp"
 #include "../../render/Renderer.hpp"
 #include "../EventManager.hpp"
 #include "../eventLoop/EventLoopManager.hpp"
 #include "../../event/EventBus.hpp"
+#include "../../desktop/view/Window.hpp"
 
 using namespace Screenshare;
 

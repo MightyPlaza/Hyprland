@@ -3,7 +3,6 @@
 #include <numeric>
 #include <pango/pangocairo.h>
 #include "NotificationOverlay.hpp"
-#include "../Compositor.hpp"
 #include "../config/ConfigValue.hpp"
 #include "../desktop/state/FocusState.hpp"
 #include "../render/pass/RectPassElement.hpp"

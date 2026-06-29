@@ -3,12 +3,15 @@
 #include "../../../debug/log/Logger.hpp"
 #include "../../../protocols/OutputManagement.hpp"
 #include "../../../output/Monitor.hpp"
-#include "../../../Compositor.hpp"
 #include "../../../render/Renderer.hpp"
 #include "../../../event/EventBus.hpp"
 #include "../../../managers/eventLoop/EventLoopManager.hpp"
 #include "../../../state/MonitorLayoutController.hpp"
 #include "../../../state/MonitorState.hpp"
+#include "../../../config/ConfigValue.hpp"
+#include "../../../desktop/Workspace.hpp"
+#include "../../../desktop/view/Window.hpp"
+#include "../../../desktop/state/WindowState.hpp"
 
 #include <ranges>
 
