@@ -1,6 +1,7 @@
 #pragma once
 #include "PassElement.hpp"
 #include "../../config/shared/complex/ComplexDataTypes.hpp"
+#include "../../desktop/DesktopTypes.hpp"
 
 class CBorderPassElement : public IPassElement {
   public:

@@ -3,7 +3,6 @@
 #include "helpers/math/Math.hpp"
 #include <functional>
 #include <string>
-#include <hyprutils/math/Box.hpp>
 
 enum eIcons : uint8_t {
     ICON_WARNING = 0,

@@ -2,6 +2,7 @@
 
 #include <cstdint>
 #include <string>
+#include <cmath>
 
 namespace Config {
     enum eConfigValueDataTypes : int8_t {

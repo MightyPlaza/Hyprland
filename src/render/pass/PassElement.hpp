@@ -1,6 +1,10 @@
 #pragma once
 
-#include "../../defines.hpp"
+#include "../../helpers/memory/Memory.hpp"
+#include "../../helpers/math/Math.hpp"
+#include "../../helpers/Color.hpp"
+
+#include <hyprutils/math/Box.hpp>
 #include <vector>
 
 enum ePassElementType : uint8_t {

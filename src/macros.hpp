@@ -1,6 +1,5 @@
 #pragma once
 
-#include <cmath>
 #include <csignal>
 #include <print>
 #include <string_view>

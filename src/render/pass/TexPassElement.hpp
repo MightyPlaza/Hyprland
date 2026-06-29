@@ -2,6 +2,8 @@
 #include "PassElement.hpp"
 #include <optional>
 
+#include "../../desktop/DesktopTypes.hpp"
+
 class CWLSurfaceResource;
 namespace Render {
     class ITexture;
