@@ -30,7 +30,6 @@
 #include "../protocols/core/Compositor.hpp"
 #include "ShaderLoader.hpp"
 #include "gl/GLFramebuffer.hpp"
-#include "gl/GLRenderbuffer.hpp"
 #include "pass/TexPassElement.hpp"
 
 #define GLFB(ifb) dc<CGLFramebuffer*>(ifb.get())

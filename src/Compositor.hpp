@@ -18,7 +18,6 @@
 #include <hyprutils/os/FileDescriptor.hpp>
 
 #include <aquamarine/backend/Backend.hpp>
-#include <aquamarine/output/Output.hpp>
 
 class CWLSurfaceResource;
 

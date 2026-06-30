@@ -20,6 +20,7 @@
 #include "./gl/GLElementRenderer.hpp"
 #include "./gl/GLFramebuffer.hpp"
 #include "./gl/GLTexture.hpp"
+#include "./gl/GLRenderbuffer.hpp"
 
 #include <cstdint>
 #include <hyprutils/memory/SharedPtr.hpp>

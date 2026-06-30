@@ -1,8 +1,8 @@
 #include "CHyprGroupBarDecoration.hpp"
-#include "../../Compositor.hpp"
 #include "../../config/ConfigValue.hpp"
 #include "../../desktop/state/FocusState.hpp"
 #include "../../desktop/state/WindowState.hpp"
+#include "../../desktop/view/Window.hpp"
 #include "../../desktop/view/Group.hpp"
 #include <ranges>
 #include <pango/pangocairo.h>
@@ -10,6 +10,7 @@
 #include "../pass/RectPassElement.hpp"
 #include "../Renderer.hpp"
 #include "../../managers/input/InputManager.hpp"
+#include "../../managers/KeybindManager.hpp"
 #include "../../layout/LayoutManager.hpp"
 #include "../../layout/supplementary/DragController.hpp"
 #include "../../helpers/MiscFunctions.hpp"

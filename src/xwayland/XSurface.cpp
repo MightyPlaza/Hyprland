@@ -1,7 +1,6 @@
 #include "XSurface.hpp"
 #include "XWayland.hpp"
 #include "../protocols/XWaylandShell.hpp"
-#include "../protocols/core/Compositor.hpp"
 #include "../managers/ANRManager.hpp"
 #include "../helpers/time/Time.hpp"
 
