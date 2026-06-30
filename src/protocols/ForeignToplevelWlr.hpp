@@ -4,6 +4,10 @@
 #include "WaylandProtocol.hpp"
 #include "wlr-foreign-toplevel-management-unstable-v1.hpp"
 
+#include "../desktop/DesktopTypes.hpp"
+#include "../SharedDefs.hpp"
+#include "../macros.hpp"
+
 class CForeignToplevelHandleWlr {
   public:
     CForeignToplevelHandleWlr(SP<CZwlrForeignToplevelHandleV1> resource_, PHLWINDOW pWindow);

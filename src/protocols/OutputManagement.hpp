@@ -7,6 +7,9 @@
 #include "wlr-output-management-unstable-v1.hpp"
 #include "../helpers/signal/Signal.hpp"
 #include <aquamarine/output/Output.hpp>
+#include "../helpers/math/Math.hpp"
+#include "../macros.hpp"
+#include "../desktop/DesktopTypes.hpp"
 
 class COutputHead;
 class COutputMode;

@@ -2,6 +2,7 @@
 
 #include "WaylandProtocol.hpp"
 #include "tearing-control-v1.hpp"
+#include "../desktop/DesktopTypes.hpp"
 
 class CTearingControlProtocol;
 class CWLSurfaceResource;

@@ -8,6 +8,8 @@
 #include "xdg-shell.hpp"
 #include "../helpers/math/Math.hpp"
 #include "../helpers/signal/Signal.hpp"
+#include "../SharedDefs.hpp"
+#include "../desktop/DesktopTypes.hpp"
 #include "types/SurfaceRole.hpp"
 
 class CXDGWMBase;

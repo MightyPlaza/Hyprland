@@ -17,6 +17,7 @@
 #include "../../helpers/signal/Signal.hpp"
 #include "../../helpers/math/Math.hpp"
 #include "../../helpers/time/Time.hpp"
+#include "../../desktop/DesktopTypes.hpp"
 #include "../types/DataDevice.hpp"
 #include <hyprutils/os/FileDescriptor.hpp>
 

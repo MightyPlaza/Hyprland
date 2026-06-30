@@ -6,6 +6,7 @@
 #include "fifo-v1.hpp"
 
 #include "../helpers/signal/Signal.hpp"
+#include "../desktop/DesktopTypes.hpp"
 
 class CWLSurfaceResource;
 

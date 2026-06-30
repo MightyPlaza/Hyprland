@@ -1,5 +1,7 @@
 #include "LockNotify.hpp"
 
+#include "../macros.hpp"
+
 CHyprlandLockNotification::CHyprlandLockNotification(SP<CHyprlandLockNotificationV1> resource_) : m_resource(resource_) {
     if UNLIKELY (!m_resource->resource())
         return;

@@ -5,6 +5,7 @@
 #include "../WaylandProtocol.hpp"
 #include "wayland.hpp"
 #include "../../helpers/signal/Signal.hpp"
+#include "../../desktop/DesktopTypes.hpp"
 
 class CWLOutputProtocol;
 

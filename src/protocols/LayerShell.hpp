@@ -7,6 +7,7 @@
 #include "wlr-layer-shell-unstable-v1.hpp"
 #include "../helpers/math/Math.hpp"
 #include "../helpers/signal/Signal.hpp"
+#include "../desktop/DesktopTypes.hpp"
 #include "types/SurfaceRole.hpp"
 
 class CXDGPopupResource;

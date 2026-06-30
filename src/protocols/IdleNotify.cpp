@@ -1,5 +1,6 @@
 #include "IdleNotify.hpp"
 #include "../managers/eventLoop/EventLoopManager.hpp"
+#include "../macros.hpp"
 
 static int onTimer(SP<CEventLoopTimer> self, void* data) {
 

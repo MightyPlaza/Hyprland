@@ -3,6 +3,7 @@
 #include "../output/Monitor.hpp"
 #include "../xwayland/XWayland.hpp"
 #include "../event/EventBus.hpp"
+#include "../desktop/DesktopTypes.hpp"
 #include "core/Output.hpp"
 
 #define OUTPUT_MANAGER_VERSION                   3

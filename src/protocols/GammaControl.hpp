@@ -5,6 +5,7 @@
 #include "WaylandProtocol.hpp"
 #include "wlr-gamma-control-unstable-v1.hpp"
 #include "../helpers/signal/Signal.hpp"
+#include "../desktop/DesktopTypes.hpp"
 
 class CGammaControl {
   public:

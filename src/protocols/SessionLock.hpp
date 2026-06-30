@@ -5,6 +5,7 @@
 #include "WaylandProtocol.hpp"
 #include "ext-session-lock-v1.hpp"
 #include "../helpers/signal/Signal.hpp"
+#include "../desktop/DesktopTypes.hpp"
 
 class CSessionLock;
 class CWLSurfaceResource;

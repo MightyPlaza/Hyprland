@@ -12,6 +12,7 @@
 #include "../WaylandProtocol.hpp"
 #include "wayland.hpp"
 #include "../../helpers/signal/Signal.hpp"
+#include "../../helpers/math/Math.hpp"
 #include "../types/SurfaceRole.hpp"
 
 class CWLSurfaceResource;

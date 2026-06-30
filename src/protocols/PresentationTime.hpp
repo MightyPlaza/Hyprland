@@ -6,6 +6,7 @@
 #include "WaylandProtocol.hpp"
 #include "presentation-time.hpp"
 #include "../helpers/time/Time.hpp"
+#include "../desktop/DesktopTypes.hpp"
 
 class CWLSurfaceResource;
 

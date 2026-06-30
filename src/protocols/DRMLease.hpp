@@ -6,6 +6,8 @@
 #include "WaylandProtocol.hpp"
 #include "drm-lease-v1.hpp"
 #include "../helpers/signal/Signal.hpp"
+#include "../desktop/DesktopTypes.hpp"
+#include "../macros.hpp"
 #include <hyprutils/os/FileDescriptor.hpp>
 
 /*

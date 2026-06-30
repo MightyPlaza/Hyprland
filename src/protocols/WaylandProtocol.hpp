@@ -1,7 +1,9 @@
 #pragma once
 
-#include "../defines.hpp"
 #include "../helpers/memory/Memory.hpp"
+#include "../debug/log/Logger.hpp"
+
+#include <wayland-server-protocol.h>
 
 #include <sstream>
 #include <functional>

@@ -1,6 +1,7 @@
 #include "DataDeviceWlr.hpp"
 #include <algorithm>
 #include "../managers/SeatManager.hpp"
+#include "../macros.hpp"
 #include "core/Seat.hpp"
 using namespace Hyprutils::OS;
 

@@ -6,6 +6,7 @@
 #include "WaylandProtocol.hpp"
 #include "ext-background-effect-v1.hpp"
 #include "../helpers/signal/Signal.hpp"
+#include "../helpers/math/Math.hpp"
 
 class CWLSurfaceResource;
 class CBackgroundEffectProtocol;

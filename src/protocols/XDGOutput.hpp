@@ -2,6 +2,7 @@
 
 #include "xdg-output-unstable-v1.hpp"
 #include "WaylandProtocol.hpp"
+#include "../desktop/DesktopTypes.hpp"
 #include <optional>
 
 class CXDGOutputProtocol;

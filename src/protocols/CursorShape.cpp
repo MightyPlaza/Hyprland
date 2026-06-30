@@ -1,6 +1,7 @@
 #include "CursorShape.hpp"
 #include <algorithm>
 #include "../helpers/CursorShapes.hpp"
+#include "../macros.hpp"
 
 CCursorShapeProtocol::CCursorShapeProtocol(const wl_interface* iface, const int& ver, const std::string& name) : IWaylandProtocol(iface, ver, name) {
     ;

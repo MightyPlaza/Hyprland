@@ -6,6 +6,7 @@
 #include "WaylandProtocol.hpp"
 #include "hyprland-surface-v1.hpp"
 #include "../helpers/signal/Signal.hpp"
+#include "../helpers/math/Math.hpp"
 
 class CWLSurfaceResource;
 class CHyprlandSurfaceProtocol;
