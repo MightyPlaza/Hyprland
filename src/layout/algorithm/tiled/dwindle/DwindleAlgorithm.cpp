@@ -7,6 +7,7 @@
 
 #include "../../../../config/ConfigValue.hpp"
 #include "../../../../desktop/state/FocusState.hpp"
+#include "../../../../desktop/state/ViewState.hpp"
 #include "../../../../output/Monitor.hpp"
 #include "../../../../Compositor.hpp"
 #include "../../../../state/MonitorState.hpp"

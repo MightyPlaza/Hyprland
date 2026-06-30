@@ -2,6 +2,7 @@
 #include <algorithm>
 #include "../Compositor.hpp"
 #include "../desktop/state/FocusState.hpp"
+#include "../desktop/state/ViewState.hpp"
 #include "core/Compositor.hpp"
 
 CKeyboardShortcutsInhibitor::CKeyboardShortcutsInhibitor(SP<CZwpKeyboardShortcutsInhibitorV1> resource_, SP<CWLSurfaceResource> surf) : m_resource(resource_), m_surface(surf) {

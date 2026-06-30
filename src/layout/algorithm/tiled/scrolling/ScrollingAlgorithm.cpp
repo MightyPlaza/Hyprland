@@ -7,6 +7,7 @@
 
 #include "../../../../Compositor.hpp"
 #include "../../../../desktop/state/FocusState.hpp"
+#include "../../../../desktop/state/ViewState.hpp"
 #include "../../../../config/ConfigValue.hpp"
 #include "../../../../config/shared/workspace/WorkspaceRuleManager.hpp"
 #include "../../../../render/Renderer.hpp"

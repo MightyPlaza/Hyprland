@@ -4,6 +4,7 @@
 #include "../../Compositor.hpp"
 #include "../../desktop/view/LayerSurface.hpp"
 #include "../../desktop/state/FocusState.hpp"
+#include "../../desktop/state/ViewState.hpp"
 #include "../../config/ConfigValue.hpp"
 #include "../../output/Monitor.hpp"
 #include "../../state/MonitorState.hpp"

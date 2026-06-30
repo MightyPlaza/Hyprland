@@ -1,6 +1,7 @@
 #include "ConfigActions.hpp"
 #include "../parserUtils/ParserUtils.hpp"
 #include "../../../desktop/state/FocusState.hpp"
+#include "../../../desktop/state/ViewState.hpp"
 #include "../../../desktop/state/WindowState.hpp"
 #include "../../../desktop/view/Window.hpp"
 #include "../../../desktop/view/Group.hpp"

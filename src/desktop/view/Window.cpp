@@ -22,6 +22,7 @@
 #include "../state/FocusState.hpp"
 #include "../state/FloatState.hpp"
 #include "../state/WindowState.hpp"
+#include "../state/ViewState.hpp"
 #include "../history/WindowHistoryTracker.hpp"
 #include "../../Compositor.hpp"
 #include "../../render/decorations/CHyprDropShadowDecoration.hpp"

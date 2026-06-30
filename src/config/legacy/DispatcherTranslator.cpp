@@ -4,6 +4,7 @@
 #include "../supplementary/executor/Executor.hpp"
 #include "../../Compositor.hpp"
 #include "../../desktop/state/FocusState.hpp"
+#include "../../desktop/state/ViewState.hpp"
 #include "../../output/Monitor.hpp"
 #include "../../desktop/view/Group.hpp"
 #include "../../managers/KeybindManager.hpp"

@@ -6,6 +6,7 @@
 #include "../../managers/cursor/CursorShapeOverrideController.hpp"
 #include "../../desktop/state/FocusState.hpp"
 #include "../../desktop/state/WindowState.hpp"
+#include "../../desktop/state/ViewState.hpp"
 #include "../../desktop/view/Group.hpp"
 #include "../../render/Renderer.hpp"
 #include "../../state/MonitorState.hpp"

@@ -1,6 +1,7 @@
 #include "XDGActivation.hpp"
 #include "../managers/TokenManager.hpp"
 #include "../Compositor.hpp"
+#include "../desktop/state/ViewState.hpp"
 #include "core/Compositor.hpp"
 #include <algorithm>
 

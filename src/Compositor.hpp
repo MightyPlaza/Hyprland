@@ -12,7 +12,6 @@
 #include "desktop/state/FadingOutState.hpp"
 #include "desktop/state/LayerState.hpp"
 #include "desktop/state/OtherViewState.hpp"
-#include "desktop/state/ViewState.hpp"
 #include "desktop/state/WindowState.hpp"
 #include "helpers/cm/ColorManagement.hpp"
 

@@ -61,6 +61,7 @@ using namespace Hyprutils::OS;
 #include "../desktop/rule/Engine.hpp"
 #include "../desktop/history/WindowHistoryTracker.hpp"
 #include "../desktop/state/FocusState.hpp"
+#include "../desktop/state/ViewState.hpp"
 #include "../state/MonitorState.hpp"
 #include "../state/WorkspacePlacementController.hpp"
 #include "../state/WorkspaceState.hpp"
