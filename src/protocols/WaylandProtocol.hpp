@@ -3,6 +3,7 @@
 #include "../defines.hpp"
 #include "../helpers/memory/Memory.hpp"
 
+#include <sstream>
 #include <functional>
 
 #define RESOURCE_OR_BAIL(resname)                                                                                                                                                  \

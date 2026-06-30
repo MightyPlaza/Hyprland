@@ -1,4 +1,5 @@
 #include "VirtualKeyboard.hpp"
+#include <algorithm>
 #include <filesystem>
 #include <sys/mman.h>
 #include "../config/ConfigValue.hpp"

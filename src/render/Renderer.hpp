@@ -1,11 +1,8 @@
 #pragma once
 
-#include "../defines.hpp"
 #include <cstdint>
-#include <hyprgraphics/color/Color.hpp>
 #include <hyprutils/math/Box.hpp>
 #include <hyprutils/utils/ScopeGuard.hpp>
-#include <list>
 #include <optional>
 #include "OpenGL.hpp"
 #include "./SyncFDManager.hpp"
@@ -19,7 +16,6 @@
 #include "./pass/SurfacePassElement.hpp"
 #include "./pass/TexPassElement.hpp"
 #include "./pass/TextureMatteElement.hpp"
-#include "./pass/TransformedWindowPassElement.hpp"
 #include "types.hpp"
 #include "../output/Monitor.hpp"
 #include "Renderbuffer.hpp"

@@ -5,6 +5,7 @@
 #include "../../../protocols/ShortcutsInhibit.hpp"
 
 #include <ranges>
+#include <algorithm>
 
 void CTrackpadGestures::clearGestures() {
     m_gestures.clear();
