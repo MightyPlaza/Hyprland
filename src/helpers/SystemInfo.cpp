@@ -7,6 +7,7 @@
 #include "../render/OpenGL.hpp"
 #include "../config/ConfigManager.hpp"
 #include "../state/MonitorState.hpp"
+#include "../output/Monitor.hpp"
 
 #include <hyprutils/string/String.hpp>
 

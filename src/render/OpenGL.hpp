@@ -1,7 +1,5 @@
 #pragma once
 
-#include "../defines.hpp"
-#include "../output/Monitor.hpp"
 #include "../helpers/Color.hpp"
 #include "../helpers/time/Timer.hpp"
 #include "../helpers/math/Math.hpp"
@@ -9,9 +7,7 @@
 #include "../helpers/sync/SyncTimeline.hpp"
 #include <GLES3/gl32.h>
 #include <cstdint>
-#include <list>
 #include <string>
-#include <stack>
 #include <map>
 
 #include "render/SyncFDManager.hpp"
