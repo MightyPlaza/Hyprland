@@ -8,6 +8,7 @@
 #include "../config/ConfigManager.hpp"
 #include "../state/MonitorState.hpp"
 #include "../output/Monitor.hpp"
+#include "../helpers/MiscFunctions.hpp"
 
 #include <hyprutils/string/String.hpp>
 

@@ -17,6 +17,7 @@
 #include "../managers/input/InputManager.hpp"
 #include "../layout/LayoutManager.hpp"
 #include "../event/EventBus.hpp"
+#include "../helpers/MiscFunctions.hpp"
 
 #include <string>
 #include <cstring>

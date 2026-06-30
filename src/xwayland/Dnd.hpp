@@ -2,7 +2,6 @@
 
 #include "../protocols/types/DataDevice.hpp"
 #include "../managers/SeatManager.hpp"
-#include "../managers/input/InputManager.hpp"
 #include <wayland-server-protocol.h>
 #include <hyprutils/os/FileDescriptor.hpp>
 #ifndef NO_XWAYLAND

@@ -1,6 +1,5 @@
 #pragma once
 
-#include "../defines.hpp"
 #include "../helpers/Format.hpp"
 #include "Texture.hpp"
 #include "../helpers/cm/ColorManagement.hpp"

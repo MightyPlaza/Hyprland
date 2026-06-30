@@ -6,6 +6,7 @@
 #include "../../types/OverridableVar.hpp"
 #include "../../../event/EventBus.hpp"
 #include "desktop/rule/windowRule/WindowRuleEffectContainer.hpp"
+#include "../../../helpers/MiscFunctions.hpp"
 
 #include <string>
 #include <tuple>

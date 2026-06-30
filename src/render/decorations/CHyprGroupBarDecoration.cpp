@@ -12,6 +12,7 @@
 #include "../../managers/input/InputManager.hpp"
 #include "../../layout/LayoutManager.hpp"
 #include "../../layout/supplementary/DragController.hpp"
+#include "../../helpers/MiscFunctions.hpp"
 
 using namespace Render;
 

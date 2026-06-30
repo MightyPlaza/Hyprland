@@ -4,6 +4,7 @@
 #include "../../../../state/WorkspaceState.hpp"
 #include "../../../../desktop/state/FocusState.hpp"
 #include "../../../../render/Renderer.hpp"
+#include "../../../../helpers/MiscFunctions.hpp"
 
 #include <hyprutils/memory/Casts.hpp>
 using namespace Hyprutils::Memory;

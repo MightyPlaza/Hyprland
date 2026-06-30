@@ -8,6 +8,7 @@
 #include "../pass/TextureMatteElement.hpp"
 #include "../../state/MonitorState.hpp"
 #include "../../desktop/view/Window.hpp"
+#include "../../helpers/MiscFunctions.hpp"
 
 CHyprDropShadowDecoration::CHyprDropShadowDecoration(PHLWINDOW pWindow) : IHyprWindowDecoration(pWindow), m_window(pWindow) {
     ;

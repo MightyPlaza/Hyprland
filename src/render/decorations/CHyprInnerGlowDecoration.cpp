@@ -4,6 +4,7 @@
 
 #include "../../config/ConfigValue.hpp"
 #include "../../desktop/view/Window.hpp"
+#include "../../helpers/MiscFunctions.hpp"
 #include "../pass/InnerGlowPassElement.hpp"
 #include "../Renderer.hpp"
 #include "../OpenGL.hpp"

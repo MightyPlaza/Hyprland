@@ -8,6 +8,7 @@
 #include "InputManager.hpp"
 #include "../../layout/space/Space.hpp"
 #include "../../layout/algorithm/Algorithm.hpp"
+#include "../../helpers/MiscFunctions.hpp"
 
 bool CUnifiedWorkspaceSwipeGesture::isGestureInProgress() {
     return !!m_workspaceBegin;

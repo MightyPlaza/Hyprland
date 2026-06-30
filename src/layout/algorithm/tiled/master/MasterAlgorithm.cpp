@@ -13,6 +13,7 @@
 #include "../../../../Compositor.hpp"
 #include "../../../../render/Renderer.hpp"
 #include "../../../../state/MonitorState.hpp"
+#include "../../../../helpers/MiscFunctions.hpp"
 
 #include <hyprutils/utils/ScopeGuard.hpp>
 #include <hyprutils/string/VarList2.hpp>

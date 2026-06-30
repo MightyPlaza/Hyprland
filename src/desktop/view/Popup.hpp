@@ -5,7 +5,6 @@
 #include "Subsurface.hpp"
 #include "View.hpp"
 #include "types/Geometric.hpp"
-#include "../../helpers/signal/Signal.hpp"
 #include "../../helpers/memory/Memory.hpp"
 #include "../../helpers/AnimatedVariable.hpp"
 #include "../../render/Framebuffer.hpp"

@@ -2,7 +2,6 @@
 
 #include "../defines.hpp"
 #include "../desktop/view/Subsurface.hpp"
-#include "../desktop/view/Popup.hpp"
 #include "../desktop/view/WLSurface.hpp"
 #include "../macros.hpp"
 #include "../desktop/DesktopTypes.hpp"

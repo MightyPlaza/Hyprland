@@ -13,6 +13,7 @@
 #include "../../layout/LayoutManager.hpp"
 #include "../../state/MonitorState.hpp"
 #include "../../state/WorkspaceState.hpp"
+#include "../../helpers/MiscFunctions.hpp"
 
 #include <hyprutils/string/String.hpp>
 #include <hyprutils/string/VarList2.hpp>

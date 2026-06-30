@@ -15,6 +15,8 @@
 #include "desktop/state/WindowState.hpp"
 #include "helpers/cm/ColorManagement.hpp"
 
+#include <hyprutils/os/FileDescriptor.hpp>
+
 #include <aquamarine/backend/Backend.hpp>
 #include <aquamarine/output/Output.hpp>
 
